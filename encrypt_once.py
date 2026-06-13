@@ -14,6 +14,6 @@ if __name__ == "__main__":
     generate_key()
 
     # Replace with your mysql root password
-    encrypted = encrypt_password("@Ponytail0302")
+    encrypted = encrypt_password("your_mysql_root_password")
     print("Encrypted password (copy this to your mysql_connect_safe.py):")
     print(encrypted)
